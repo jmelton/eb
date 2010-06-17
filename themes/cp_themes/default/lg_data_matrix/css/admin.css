@@ -1,0 +1,60 @@
+/**
+* Styles for for LG Data Matrix
+* 
+* This file must be placed in the
+* /themes/cp_themes/default/lg_data_matrix/css/ folder in your ExpressionEngine installation.
+*
+* @package LgDataMatrix
+* @version 1.1.1
+* @author Leevi Graham <http://leevigraham.com>
+* @see http://leevigraham.com/cms-customisation/expressionengine/addon/lg-data-matrix/
+* @copyright Copyright (c) 2007-2009 Leevi Graham
+* @license {@link http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-Share Alike 3.0 Unported} All source code commenting and attribution must not be removed. This is a condition of the attribution clause of the license.
+*/
+
+.lg_multi-text-field{border:1px solid #C5CFDA; margin:5px 27px 0 17px;}
+.lg_multi-text-field ul.tableHeading{padding:0;}
+.lg_multi-text-field div.cell,
+.lg_multi-text-field li{float:left; list-style-type:none}
+.lg_multi-text-field li{margin:0;}
+.lg_multi-text-field ul div,
+.lg_multi-text-field .cell div{border-left:1px dotted #C5CFDA; padding:7px}
+.lg_multi-text-field .cell div div{border-left:none; padding:0}
+.lg_multi-text-field .cell input[type=text],
+.lg_multi-text-field .cell textarea{width:90%}
+.lg_multi-text-field .lgdm-date input{display:block; margin-bottom:7px;}
+
+.lg_multi-text-field li:first-child div,
+.lg_multi-text-field .cell:first-child div{border-left:none}
+
+.lg_multi-text-field .row{position:relative}
+.lg_multi-text-field .row:last-child{border-bottom:0}
+.lg_multi-text-field ul + .row .delete,
+.lg_multi-text-field ul + .row .sort-handle{display:none}
+.lg_multi-text-field .row .delete,
+.lg_multi-text-field .row .sort-handle{background:no-repeat top left; height:0; padding-top:16px; position:absolute; overflow:hidden; top:5px; width:16px;}
+
+.lg_multi-text-field .row .delete{background-image: url("../../../../cp_global_images/delete.png"); cursor:pointer; right:-25px;}
+.lg_multi-text-field .row .sort-handle{background-image: url("../../../../cp_global_images/sort.png"); cursor:move; left:-25px}
+.add-row {background:url("../../../../cp_global_images/add.png") no-repeat center left; cursor:pointer; display:inline-block; margin:9px 17px 17px 17px; line-height:16px; padding-left:16px; position:relative; width:auto;}
+
+.lg_multi-text-field div.tableCellOne,
+.lg_multi-text-field div.tableCellTwo{padding:0}
+
+.lg_multi-text-field .tableHeading:after,
+.lg_multi-text-field:after,
+.lg_multi-text-field ul:after,
+.lg_multi-text-field .row:after,
+.lg_multi-text-field .clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.lg_multi-text-field .tableHeading,
+.lg_multi-text-field,
+.lg_multi-text-field ul,
+.lg_multi-text-field .row,
+.lg_multi-text-field .clearfix { *display:inline-block; }

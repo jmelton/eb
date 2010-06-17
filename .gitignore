@@ -1,0 +1,13 @@
+.DS_Store
+config.php
+images/avatars/uploads
+images/captchas
+images/member_photos
+images/pm_attachments
+images/signature_attachments
+images/uploads
+admin/config.php
+admin/cache/db_cache
+admin/cache/lg_cache
+admin/cache/magpie_cache
+admin/cache/page_cache
