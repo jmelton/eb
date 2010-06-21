@@ -19,15 +19,19 @@
     </div>
     <div id="index_right">
     	<div id="index_loginbox">
-        	{exp:member:login_form return="site/index"}
+        	{exp:member:login_form return="members/login"}
         	<input type="text" id="username" name="username" value="Username" /><br />
             <input type="text" id="password" name="password" value="Password" /><br />
-            <input type="button" id="signup" name="signup" value="" />
+            <input type="button" id="signup" name="signup" onclick="goPage(\'{path='members/login'}');" value="" />
             <input type="submit" id="submit_login" name="submit_login" value="" />
             {/exp:member:login_form}
         </div>
-    	<img src="{path='images/site'}index_share.png" />
+    	<a href="{path='recipes/share-a-recipe'}"><img src="{path='images/site'}index_share.png" /></a>
     </div>
 </div>
-
+<script>
+function goPage(page){
+	window.location = page;
+}
+</script>
 {embed="includes/footer"}

@@ -80,6 +80,34 @@ body{ padding: 0; margin: 0; }
     border: none;
 }
 
+
+#other_top{
+	background: url('images/site/other_bkgd.png')top left no-repeat;
+    margin: 0;
+    padding: 0; 
+    width: 760px;
+    height: 125px;
+}
+ 
+.index_lady{
+	float: right;
+}
+
+.other_lady{
+    position:absolute;
+    right:260px;
+    top:50px;
+    z-index:1;
+}
+
+.other_login{
+    position:absolute;
+    right:280px;
+    top:200px;
+    z-index:2;
+}
+
+
 .ad_space{ margin: 5px; }
 
 /* ============================== Index Page ============================== */ 
@@ -174,8 +202,165 @@ body{ padding: 0; margin: 0; }
     margin: 0;
     border: none;
 }
- 
-.index_lady{
-	float: right; 
+
+/* ============================== Share Form Pages ============================== */ 
+
+
+#share_bars{ width: 760px; text-align: left; }
+#share_top_bar{ height: 6px; }
+#share_txt_bar{
+	height: 26px;
+    font: italic 16px arial;
+    font-weight: bold; 
+    padding: 6px 0 0 10px;
+}
+#form_col{
+	display: inline;
+    width: 550px;
+    float: left;
+    padding-right: 15px;
+}
+#share_info1{
+    width: 760px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+#share_info1 p{
+	padding: 20px 20px 15px 20px;
+    margin: 0; 
+    font: normal 11px arial;   
+}
+#share_info2{
+	text-align: left;
+    overflow: hidden;
+}
+#ads_col{ 
+	display: inline; 
+    width: 170px; 
+    float: left; 
+    text-align: left;
+    padding: 140px 0px 0 25px;
 }
 
+
+.info_header{
+	padding: 6px 20px; 
+    margin: 0;
+    color: #FFF;
+    font: bold 12px arial; 
+}
+
+.top_bar_aqua{ background-color: #90c9c1; }
+.top_bar_pink{ background-color: #f66d86; }
+.top_bar_yellow{ background-color: #fade53; color: #a554a0; }
+.txt_bar_green{ background-color: #afcb31; color: #FFF; }
+.txt_bar_yellow{ background-color: #fade53; color: #f66d86; }
+.txt_bar_purple{ background-color: #a554a0; color: #FFF; }
+
+.form_table{ padding: 0 20px; }
+.form_table tr{
+	text-align: left;
+    vertical-align: top;
+}
+.form_table td{
+	font: bold 11px arial;
+    padding-right: 20px;
+}
+.form_table label{ color: #5580ce; }
+.form_table input, .form_table textarea{
+    padding: 4px;
+}
+.green_brdr{ border: 2px solid #afcb31; }
+.pink_brdr{ border: 2px solid #f66d86; }
+.purple_brdr { border: 2px solid #a554a0; }
+
+.long_text{ width: 380px; }
+.med_text { width: 270px; }
+
+.txt_qnt{ width: 30px; }
+.txt_unt{ width: 50px; }
+.txt_ing{ width: 210px; }
+.txt_pre{ width: 100px; }
+.txt_ins{ width: 500px; height: 200px; }
+
+
+/* ============================== Member Pages ============================== */ 
+
+#member_bars{ width: 760px; text-align: left; }
+#member_top_bar{ height: 6px; }
+#member_txt_bar{
+	height: 26px;
+    font: italic 16px arial;
+    font-weight: bold; 
+    padding: 6px 0 0 10px;
+}
+
+/* ============================== Sign-Up Form Page ============================== */ 
+
+
+#register_form{
+	text-align: left;
+    width: 500px;
+    padding: 30px 0;
+}
+#register_form p{
+	font: italic 13px arial;
+    font-weight: bold; 
+    color: #5580ce;
+    margin: 0;
+    padding: 8px 0;
+}
+#register_form label{
+	font: italic 12px arial;
+    font-weight: bold;
+    color: #5580ce;    
+}
+.register_text { width: 200px; padding: 2px; margin-right: 20px; border: 2px solid #000; }
+.top_bar_darkred{ background-color: #98343e; }
+.txt_bar_pink{ background-color: #f66d86; color: #FFF; }
+
+
+/* ============================== Login Form Page ============================== */ 
+
+#login_wrapper{ 
+	width: 550px; 
+    text-align: left; 
+    overflow: hidden; 
+    padding-bottom: 50px; 
+}
+#login_wrapper p{ font: normal 11px arial; }
+
+#login_form, #signup_form{
+    display: inline;
+    float: left;
+    margin-right: 20px;
+}
+
+#login_box{
+	background: url('images/site/login_bkgd.png') top left no-repeat;
+    width: 244px;
+    height: 106px;
+    padding: 6px 5px;
+}
+
+#signup_box{
+	background: url('images/site/signup_bkgd.png') top left no-repeat;
+    width: 244px;
+    height: 106px;  
+    padding: 4px 5px;       
+}
+
+#login_box label{
+	font: italic 11px arial; 
+    font-weight: bold; 
+    width: 50px;
+}
+#signup_box label{
+	font: italic 11px arial; 
+    font-weight: bold; 
+    width: 50px;
+    color: #FFF;
+}
+
+.box_header{ font: italic 13px arial; font-weight: bold; color: #5580ce; margin: 3px 0; }
+.login_text{ width: 140px; margin: 2px 0; padding: 1px; border: 2px solid #000; }

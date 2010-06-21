@@ -4,7 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Easy Breezy Dinners</title>
 <link rel="stylesheet" type="text/css" media="all" href="{stylesheet=styles/main}" />
-{if segment_1 == "cc4kids"}<link rel="stylesheet" type="text/css" media="all" href="{stylesheet=styles/cc4kids}" />{/if}
+{if segment_1}<link rel="stylesheet" type="text/css" media="all" href="{stylesheet=styles/{segment_1}}" />{/if}
+
 
 </head>
 <body>
